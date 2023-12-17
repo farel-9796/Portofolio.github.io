@@ -147,8 +147,9 @@ cursor: pointer;
 #menuHeader2{
     display: grid;
     grid-gap:1px;
-    grid-template-columns: 200px 300px 500px 100px 100px 150px 150px;
-}
+    grid-template-columns: 200px 300px 10px 100px 100px 150px 150px 100px;
+    justify-content: space-between;
+  }
 
 .sticky {
     width: 97%;
