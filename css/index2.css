@@ -46,16 +46,32 @@
     justify-items: center;
 }
 
+.prog{
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+
+.plc{
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+
 .gui{
     width: 300%;
+    border: 2px solid orange;
+    border-radius: 10px;
 }
 
 .design{
     width: 120%;
+    border: 2px solid orange;
+    border-radius: 10px;
 }
 
 .pcb{
     width: 80%;
+    border: 2px solid orange;
+    border-radius: 10px;
 }
 
 .sp{
@@ -131,7 +147,7 @@ cursor: pointer;
 #menuHeader2{
     display: grid;
     grid-gap:1px;
-    grid-template-columns: 200px 300px 500px 100px 100px 150px;
+    grid-template-columns: 200px 300px 500px 100px 100px 150px 150px;
 }
 
 .sticky {
